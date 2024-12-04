@@ -5,21 +5,11 @@
 - `src/modelos/estado_no.py`: Define o enum `EstadoNo` que representa os estados de um nó (Seguidor, Candidato, Líder).
 - `src/main.py`: Script principal que executa a simulação.
 
-1. **Clone o repositório**:
-   ```sh
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DO_REPOSITORIO>
-   ```
+1. **Clone o repositório**
 
-2. **Crie e ative um ambiente virtual**:
+2. **Execute a simulação**:
    ```sh
-   python -m venv venv
-   .\venv\Scripts\activate
-   ```
-
-3. **Execute a simulação**:
-   ```sh
-   python src/main.py
+   python -m src.main
    ```
 
 ## Funcionalidades
